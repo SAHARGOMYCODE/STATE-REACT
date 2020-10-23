@@ -25,12 +25,12 @@ class App extends Component {
     const { count } = this.state;
     return (
       <div>
-        <div class="show">
+        <div className="show">
           <p>{this.state.show ? this.state.fullName : null}</p>
           <p>{this.state.show ? this.state.bio : null}</p>
           <p> {this.state.show ? this.state.profession : null}</p>
           <p> {this.state.show ? this.state.imgSrc : null}</p>
-          <button onClick={this.toggle} class="btn">
+          <button onClick={this.toggle} className="btn">
             {" "}
             {this.state.show ? "Hide" : "Start"}
           </button>{" "}
